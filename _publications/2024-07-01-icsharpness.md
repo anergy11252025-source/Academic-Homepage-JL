@@ -1,6 +1,7 @@
 ---
 title: "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation"
 collection: publications
+category: conferences
 permalink: /publication/2024-icsharpness
 excerpt: 'This paper proposes using in-context sharpness of inner representations as alerts for hallucination mitigation in language models.'
 date: 2024-07-01

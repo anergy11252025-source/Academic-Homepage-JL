@@ -1,6 +1,7 @@
 ---
 title: "On the Universal Truthfulness Hyperplane Inside LLMs"
 collection: publications
+category: conferences
 permalink: /publication/2024-truthfulness-hyperplane
 excerpt: 'This paper discovers and analyzes the universal truthfulness hyperplane inside large language models, providing insights into LLM truthfulness and interpretability.'
 date: 2024-11-01
