@@ -6,13 +6,43 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Junteng Liu"
+title                    : "Junteng Liu - Academic Homepage"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Ph.D. Candidate at HKUST NLP Group"
+description              : &description "Junteng Liu's academic portfolio"
 url                      : https://anergy11252025-source.github.io
 baseurl                  : "/Academic-Homepage-JL"
 repository               : "anergy11252025-source/Academic-Homepage-JL"
+
+# Site Author
+author:
+  avatar           : "profile.png"
+  name             : "Junteng Liu"
+  pronouns         :
+  bio              : "First-year PhD candidate at HKUST NLP Group"
+  location         : "Hong Kong"
+  employer         : "Hong Kong University of Science and Technology"
+  uri              :
+  email            : "jliugi@connect.ust.hk"
+
+  # Academic websites
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ"
+  orcid            :
+
+  # Repositories and software development
+  github           : "Vicent0205"
+
+  # Social media
+  twitter          : "junteng88716710"
+
+# Publication Category
+publication_category:
+  conferences:
+    title: 'Conference Papers'
+  manuscripts:
+    title: 'Preprints'
+
+# Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -20,7 +50,7 @@ future                   : true
 read_more                : "disabled"
 talkmap_link             : false
 comments:
-  provider               : false
+  provider               :
 
 atom_feed:
   hide                   : false
@@ -35,7 +65,12 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "junteng88716710"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
 og_image                 :
+og_description           :
 social:
   type                   :
   name                   :
@@ -43,27 +78,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false
-
-# Site Author
-author:
-  name             : "Junteng Liu"
-  avatar           : "profile.png"
-  pronouns         : "he/him"
-  bio              : "Ph.D. Candidate in CS at HKUST, working on NLP and Machine Learning. Research interests: LLM Reasoning, VLM Hallucination, LLM Truthfulness."
-  location         : "Hong Kong, China"
-  employer         : "HKUST NLP Group"
-  email            : "jliugi@connect.ust.hk"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
-  github           : "Vicent0205"
-  twitter          : "junteng88716710"
-
-# Publication Category
-publication_category:
-  conferences:
-    title: 'Conference Papers'
-  manuscripts:
-    title: 'Preprints'
+  provider               : "false"
+  google:
+    tracking_id          :
 
 # Reading Files
 include:
@@ -78,22 +95,23 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - CHANGELOG
+  - Capfile
   - config
   - Dockerfile
+  - Gemfile
+  - Gruntfile.js
   - gulpfile.js
+  - LICENSE
+  - local
   - log
   - node_modules
   - package.json*
+  - Rakefile
+  - README
   - tmp
   - vendor
 keep_files:
@@ -192,25 +210,26 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Hong_Kong
+timezone: Etc/UTC
 
 # Plugins
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
   - jemoji
 
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
   - jemoji
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -218,6 +237,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
