@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD candidate at [HKUST NLP Group](https://github.com/HKUNLP), supervised by [Prof. Junxian He](https://jxhe.github.io/). I graduated from [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/) in June 2024.
+I am Junteng Liu, a first-year PhD candidate at the [HKUST NLP Group](https://github.com/HKUST-NLP), supervised by [Prof. Junxian He](https://jxhe.github.io/). I graduated from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (SJTU) in June 2024.
 
-My research focuses on **natural language processing** and **machine learning**. My specific research interests include:
+My research focuses on **natural language processing** and **machine learning**. Specifically, my research interests include:
 
 - **LLM Reasoning and Reinforcement Learning**
 - **Hallucination in Vision-Language Models (VLM)**
@@ -17,19 +17,17 @@ My research focuses on **natural language processing** and **machine learning**.
 
 ## News
 
-- **[Feb 2025]** Started research internship at MINIMAX.
-- **[2025]** New preprint: *SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond*.
-- **[2025]** New preprint: *On the Perception Bottleneck of VLMs for Chart Understanding*.
-- **[2024]** Paper accepted at **EMNLP 2024**: *On the Universal Truthfulness Hyperplane Inside LLMs*.
-- **[2024]** Paper accepted at **ICML 2024**: *In-Context Sharpness as Alerts*.
-- **[2024]** Started Ph.D. at HKUST.
-- **[2023]** Two papers accepted at **NeurIPS 2023**: *C-Eval* and *Composing Parameter-Efficient Modules*.
+- **[2025]** Paper "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond" released on Arxiv.
+- **[2025]** Paper "On the Perception Bottleneck of VLMs for Chart Understanding" released on Arxiv.
+- **[2024]** Paper "On the Universal Truthfulness Hyperplane Inside LLMs" accepted at **EMNLP 2024**.
+- **[2024]** Paper "In-Context Sharpness as Alerts" accepted at **ICML 2024**.
+- **[2024]** Started PhD at HKUST, supervised by Prof. Junxian He.
 
 ## Education
 
 - **Ph.D. in Computer Science** (2024 - Present)  
   Hong Kong University of Science and Technology (HKUST)  
-  Supervisor: Prof. Junxian He
+  Advisor: [Prof. Junxian He](https://jxhe.github.io/)
 
 - **B.Eng.** (2020 - 2024)  
   Shanghai Jiao Tong University (SJTU)  
@@ -40,7 +38,7 @@ My research focuses on **natural language processing** and **machine learning**.
 - **Research Intern**, [MINIMAX](https://www.minimaxi.com/) (February 2025 - Present)
 - **Research Intern**, Tencent WXG (June 2024 - September 2024)  
   Advisor: Zifei Shan
-- **Research Intern**, Shanghai AI Lab (June 2023 - December 2023)  
+- **Research Intern**, [Shanghai AI Lab](https://www.shlab.org.cn/) (June 2023 - December 2023)  
   Advisor: Prof. Yu Cheng
 
 ## Contact
